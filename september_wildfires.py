@@ -32,7 +32,7 @@ data = [{
     'marker' : {
         'size' : [.05 * bright for bright in bbrightness],
         'color' : bbrightness,
-        'colorscale' : 'Vilridis',
+        'colorscale' : 'Viridis',
         'reversescale' : True,
         'colorbar' : {'title' : 'Brightness'}
     },
